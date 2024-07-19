@@ -2,7 +2,7 @@
 
 This project integrates Kafka and MongoDB to process logistics data, using Avro for data serialization/deserialization. It includes a Kafka producer and consumer, along with an API for MongoDB interaction.
 
-![alt text](/logistics-data-processing/diagram.png)
+![alt text](/logistics_data_processing/diagram.png)
 ---
 
 ### Table of Contents
@@ -103,7 +103,7 @@ An API (`app.py`) is developed using Flask and MongoDB Atlas:
 
 ### Example Endpoints
 
-For detailed examples and to explore API endpoints, refer to the [Postman Collection](/logistics-data-processing/delivery_trip_truck_data/logistics_api_collection.postman_collection.json) provided with this repository. The collection includes request examples for:
+For detailed examples and to explore API endpoints, refer to the [Postman Collection](/logistics_data_processing/delivery_trip_truck_data/logistics_api_collection.postman_collection.json) provided with this repository. The collection includes request examples for:
 
 - Filtering specific JSON documents based on attributes.
 - Aggregating data to retrieve summaries or statistics.

@@ -35,7 +35,6 @@ Before starting, ensure you have the following installed:
 - Confluent Kafka Python library (`confluent-kafka`)
 - MongoDB
 - Pandas
-- Avro Python library (`avro-python3`)
 - Flask (for API development)
 
 ---

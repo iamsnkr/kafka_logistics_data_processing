@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "8bb64a20-a80c-4bb9-8221-13cda409d10a",
+		"name": "travel_data_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34334134"
+	},
+	"item": [
+		{
+			"name": "Get_details_with_booking id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/trip_details/AEIBK2026772",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"trip_details",
+						"AEIBK2026772"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_aggr_for_all_gpsProviders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/GpsProvider",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"GpsProvider"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_aggr_for_specific_gpsProviders",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"GpsProvider\" : \"CONSENT TRACK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/GpsProvider",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"GpsProvider"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

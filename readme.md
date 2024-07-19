@@ -94,13 +94,6 @@ Before starting, ensure you have the following installed:
 - Endpoints are provided to interact with MongoDB collections.
 - Example endpoints include filtering specific JSON documents and aggregating data based on certain criteria.
 
-### API Development
-
-An API (`app.py`) is developed using Flask and MongoDB Atlas:
-
-- Endpoints are provided to interact with MongoDB collections.
-- Example endpoints include filtering specific JSON documents and aggregating data based on certain criteria.
-
 ### Example Endpoints
 
 For detailed examples and to explore API endpoints, refer to the [Postman Collection](/logistics_data_processing/logistics_api_collection.postman_collection.json) provided with this repository. The collection includes request examples for:

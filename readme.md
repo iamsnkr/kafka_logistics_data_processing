@@ -15,8 +15,7 @@ This project integrates Kafka and MongoDB to process logistics data, using Avro 
 7. [Kafka Consumer](#kafka-consumer)
 8. [Data Validation](#data-validation)
 9. [API Development](#api-development)
-10. [Contributing](#contributing)
-11. [License](#license)
+
 
 ---
 

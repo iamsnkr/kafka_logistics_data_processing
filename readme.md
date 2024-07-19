@@ -44,7 +44,7 @@ Before starting, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your/repository.git
+   https://github.com/iamsnkr/kafka_logistics_data_processing.git
    cd repository
    ```
 2. **Install dependencies:**
@@ -76,7 +76,7 @@ Before starting, ensure you have the following installed:
 ----------------------------------------
 
 **Schema Registry**
-- Ensure Schema Registry is set up and running. Avro schemas for serialization/deserialization are managed by Schema Registry to maintain compatibility between producer and consumer.
+- Avro schemas for serialization/deserialization are managed by Schema Registry to maintain compatibility between producer and consumer.
 
 **Kafka Producer**
 - The Kafka producer script (kafka_producer.py) reads logistics data from a CSV file using Pandas, serializes it into Avro format using an Avro schema fetched from Schema Registry, and publishes messages to Kafka.

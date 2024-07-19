@@ -2,6 +2,7 @@
 
 This project integrates Kafka and MongoDB to process logistics data, using Avro for data serialization/deserialization. It includes a Kafka producer and consumer, along with an API for MongoDB interaction.
 
+![alt text](/logistics-data-processing/diagram.png)
 ---
 
 ### Table of Contents

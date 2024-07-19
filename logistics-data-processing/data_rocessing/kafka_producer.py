@@ -13,7 +13,7 @@ from datetime import datetime
 
 def get_csv_data():
     # Read CSV file into DataFrame
-    df = pd.read_csv("delivery_trip_truck_data.csv")
+    df = pd.read_csv("logistics_data.csv")
     # # Print information about the DataFrame
     # print('*******************************')
     # print(df.info())
@@ -101,23 +101,6 @@ def produce_messages_to_kafka():
         producer.flush()
         # time.sleep(1)
     print("Messages Produced Successfully")
-
-
-def sample_data():
-    data = {
-        'date_strings': ['8/18/20', '08-12-2020', 'null', '01/Aug/2024', '08-11-2020  15:27:00', '8/21/20 16:14'],
-        'numbers': ['01', '020', '5', '4', '080', '84']
-    }
-    df = pd.DataFrame(data)
-    try:
-        print(df.info())
-        df['date_strings'] = pd.to_datetime(df['date_strings'], errors='coerce').dt.strftime('%Y-%m-%d')
-        df['numbers'] = df['numbers'].astype(int)
-    except Exception as e:
-        print(traceback.format_exc())
-    print(df.info())
-    for i, row in df.iterrows():
-        print(type(row.to_dict()['numbers']), row.to_dict()['numbers'])
 
 
 if __name__ == "__main__":

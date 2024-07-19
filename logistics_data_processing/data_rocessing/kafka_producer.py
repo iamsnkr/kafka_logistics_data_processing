@@ -14,10 +14,6 @@ from datetime import datetime
 def get_csv_data():
     # Read CSV file into DataFrame
     df = pd.read_csv("logistics_data.csv")
-    # # Print information about the DataFrame
-    # print('*******************************')
-    # print(df.info())
-    # print('*******************************')
     # Convert columns to appropriate data types and handle missing values
     df['BookingID_Date'] = pd.to_datetime(df['BookingID_Date'], errors='coerce').dt.strftime('%Y-%m-%d %H:%M:%S')
     df['actual_eta'] = pd.to_datetime(df['actual_eta'], errors='coerce').dt.strftime('%Y-%m-%d %H:%M:%S')

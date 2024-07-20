@@ -157,10 +157,10 @@ def produce_messages_to_kafka():
                 'topic [{}]'.format(msg.offset(), msg.partition(), msg.topic()))
             print("consumer_id [{}] :: message: {}".format(consumer_id, msg.value()))
             try:
-                id = store_data_in_mongodb(db, msg.value())
-                print(f"record inserted successfully into mongodb with id {id}")
+                _id = store_data_in_mongodb(db, msg.value())
+                print(f"record inserted successfully into mongodb with id {_id}")
             except Exception as e:
-                print(f"Exception occurred  while inserting data {e}")
+                print(f"Exception occurred while inserting data {e}")
             consumer.commit(msg)
 
     except KeyboardInterrupt:

@@ -1,0 +1,262 @@
+{
+  "fields": [
+    {
+      "default": null,
+      "name": "GpsProvider",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "BookingID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Market_Regular",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "BookingID_Date",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "vehicle_no",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Origin_Location",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Destination_Location",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Org_lat_lon",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Des_lat_lon",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Data_Ping_time",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Planned_ETA",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Current_Location",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "DestinationLocation",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "actual_eta",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Curr_lat",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Curr_lon",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "default": null,
+      "name": "ontime",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "delay",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "OriginLocation_Code",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "DestinationLocation_Code",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "trip_start_date",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "trip_end_date",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "TRANSPORTATION_DISTANCE_IN_KM",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "default": null,
+      "name": "vehicleType",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Minimum_kms_to_be_covered_in_a_day",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Driver_Name",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Driver_MobileNo",
+      "type": [
+        "null",
+        "long"
+      ]
+    },
+    {
+      "default": null,
+      "name": "customerID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "customerNameCode",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "supplierID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "supplierNameCode",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "Material_Shipped",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ],
+  "name": "TripRecord",
+  "type": "record"
+}
